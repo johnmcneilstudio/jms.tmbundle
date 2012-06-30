@@ -19,10 +19,10 @@ Using this method is similar to Option 2, but uses Terminal.
 
 	mkdir -p ~/Library/Application\ Support/TextMate/Bundles
 	cd ~/Library/Application\ Support/TextMate/Bundles
-	wget http://github.com/johnmcneilstudio/jms.tmbundle/tarball/master
-	tar zxf jms.tmbundle*.tar.gz
-	rm jms.tmbundle*.tar.gz
-	mv jms.tmbundle* JMS.tmbundle
+	wget https://github.com/johnmcneilstudio/jms.tmbundle/tarball/master
+	tar zxf johnmcneilstudio-jms.tmbundle*.tar.gz
+	rm johnmcneilstudio-jms.tmbundle*.tar.gz
+	mv johnmcneilstudio-jms.tmbundle* JMS.tmbundle
 	osascript -e 'tell app "TextMate" to reload bundles'
 
 # Usage
