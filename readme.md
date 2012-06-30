@@ -1,20 +1,19 @@
 # Installation
 
-## Installation Option 1 (with Git):
+**Option 1 (with Git):**
 	
 	mkdir -p ~/Library/Application\ Support/TextMate/Bundles/; #just in case you are missing the folder
 	cd ~/Library/Application\ Support/TextMate/Bundles/;
 	git clone git://github.com/johnmcneilstudio/jms.tmbundle.git "JMS.tmbundle";
 	osascript -e 'tell app "TextMate" to reload bundles';
 	
-Installing via Git will allow you to keep up to date with the `Bundles` > `JMS` > `Update Bundle` menu command.
+Installing via Git will allow you to keep up to date with the `Bundles` > `JMS` > `Update Bundle` menu command.  
 
-
-## Installation Option 2 (manual download without GIT):
+**Option 2 (manual download without Git):**  
 If you don't have Git and downloaded this from Github (really? you don't have Git?), after you've unzipped or untarred, you'll have to rename the folder from `johnmcneilstudio-jms.tmbundle-#{HASH}` to `JMS.tmbundle`. Double click and TextMate should install it for you.
 
 
-## Installation Option 3 (manual download via Terminal)
+**Option 3 (manual download via Terminal)**  
 Using this method is similar to Option 2, but uses Terminal.
 
 
@@ -28,13 +27,13 @@ Using this method is similar to Option 2, but uses Terminal.
 
 # Usage
 
-## Snippets
+**Snippets**  
 
 | Activation Type | Activation Trigger | Scope Selector | Description |
 | --------------- | ------------------ | -------------- | ----------- |
 | `Tab Trigger` | `gitignore` | | Inserts our standard `.gitignore` settings |
 
-## Commands
+**Commands**  
 
 | Input | Output | Activation Type | Activation Trigger | Scope Selector | Description |
 | ----- | ------ | --------------- | ------------------ | -------------- | ----------- |
