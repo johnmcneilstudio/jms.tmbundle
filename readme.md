@@ -32,7 +32,7 @@ Using this method is similar to Option 2, but uses Terminal.
 | Activation Type | Activation Trigger | Scope Selector | Description |
 | --------------- | ------------------ | -------------- | ----------- |
 | `Tab Trigger` | `gitignore` | | Inserts our standard `.gitignore` settings |
-| `Tab Trigger` | `yt` | | Inserts our standard youtube url with our custom default parameters |
+| `Tab Trigger` | `yt` | | Inserts our standard youtube embed url with custom default parameters |
 
 **Commands**  
 
