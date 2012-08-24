@@ -32,6 +32,7 @@ Using this method is similar to Option 2, but uses Terminal.
 | Activation Type | Activation Trigger | Scope Selector | Description |
 | --------------- | ------------------ | -------------- | ----------- |
 | `Tab Trigger` | `gitignore` | | Inserts our standard `.gitignore` settings |
+| `Tab Trigger` | `yt` | | Inserts our standard youtube url with our custom default parameters |
 
 **Commands**  
 
@@ -44,6 +45,11 @@ Using this method is similar to Option 2, but uses Terminal.
 JMS.tmbundle is released under the MIT License. Included third-party software are limited to their respective licenses.
 
 # Release Notes
+0.0.2 (08.24.2012)
+
+* Added Snippet for `.yt`
+* Added `.yt` info to readme.md
+
 0.0.1 (06.29.2012)
 
 * Created JMS.tmbundle repo
