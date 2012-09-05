@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string># This is used to remove curly quotes
+#!/usr/bin/env python
+
+import sys
+
+x = sys.stdin.read()
+x = x.replace(u'\u201c'.encode('utf-8'), '"')
+x = x.replace(u'\u201d'.encode('utf-8'), '"')
+x = x.replace(u'\u2018'.encode('utf-8'), "'")
+x = x.replace(u'\u2019'.encode('utf-8'), "'")
+sys.stdout.write(x)</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Straighten Quotes</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>6F55AF4D-2B33-44A1-9B21-C7CB91B6FC14</string>
+</dict>
+</plist>

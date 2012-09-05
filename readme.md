@@ -29,22 +29,28 @@ Using this method is similar to Option 2, but uses Terminal.
 
 **Snippets**  
 
-| Activation Type | Activation Trigger | Scope Selector | Description |
-| --------------- | ------------------ | -------------- | ----------- |
-| `Tab Trigger` | `gitignore` | | Inserts our standard `.gitignore` settings |
-| `Tab Trigger` | `yt` | | Inserts our standard youtube embed url with custom default parameters |
+| Snippet Name | Activation Type | Activation Trigger | Scope Selector | Description |
+| ------------ | --------------- | ------------------ | -------------- | ----------- |
+| gitignore template | `Tab Trigger` | `gitignore` | | Inserts our standard `.gitignore` settings |
+| youtube embed url | `Tab Trigger` | `yt` | | Inserts our standard youtube embed url with custom default parameters |
 
 **Commands**  
 
-| Input | Output | Activation Type | Activation Trigger | Scope Selector | Description |
-| ----- | ------ | --------------- | ------------------ | -------------- | ----------- |
-| `None` | `Show as HTML` | `Key Equivalent` | | | Updates the JMS TextMate Bundle via Git |
+| Command Name | Input | Output | Activation Type | Activation Trigger | Scope Selector | Description |
+| ------------ | ----- | ------ | --------------- | ------------------ | -------------- | ----------- |
+| Update Bundle | `None` | `Show as HTML` | `Key Equivalent` | | | Updates the JMS TextMate Bundle via Git |
+| Straighten Quotes | `Selected Text` or `Document` | `Replace Selected Text` | `Key Equivalent` | | | Replaces curly single and double quotes with compatible ASCII equivalents |
 
 
 # Licenses
 JMS.tmbundle is released under the MIT License. Included third-party software are limited to their respective licenses.
 
 # Release Notes
+0.0.3 (09.05.2012)
+
+* Added Command for `Straighten Quotes`
+* Added `Straighten Quotes` info to readme.md
+
 0.0.2 (08.24.2012)
 
 * Added Snippet for `.yt`
