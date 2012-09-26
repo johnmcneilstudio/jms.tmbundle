@@ -33,6 +33,7 @@ Using this method is similar to Option 2, but uses Terminal.
 | ------------ | --------------- | ------------------ | -------------- | ----------- |
 | gitignore template | `Tab Trigger` | `gitignore` | | Inserts our standard `.gitignore` settings |
 | youtube embed url | `Tab Trigger` | `yt` | | Inserts our standard youtube embed url with custom default parameters |
+| cdata | `Tab Trigger` | `cdata` | | Inserts a standard CDATA tag |
 
 **Commands**  
 
@@ -46,6 +47,11 @@ Using this method is similar to Option 2, but uses Terminal.
 JMS.tmbundle is released under the MIT License. Included third-party software are limited to their respective licenses.
 
 # Release Notes
+0.0.4 (09.26.2012)
+
+* Added Snippet for `cdata`
+* Added `cdata` info to readme.md
+
 0.0.3 (09.05.2012)
 
 * Added Command for `Straighten Quotes`
