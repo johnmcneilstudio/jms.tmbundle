@@ -41,6 +41,7 @@ publish
 .idea
 docs
 intermediate
+temp
 
 # build script local files
 build/buildinfo.properties

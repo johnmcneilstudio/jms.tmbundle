@@ -51,6 +51,7 @@ JMS.tmbundle is released under the MIT License. Included third-party software ar
 
 * Added Snippet for `cdata`
 * Added `cdata` info to readme.md
+* Added `temp` folder to `gitignore template`
 
 0.0.3 (09.05.2012)
 
